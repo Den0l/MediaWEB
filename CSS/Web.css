@@ -1,0 +1,298 @@
+
+
+
+/*Компьютер*/
+@media only screen and (min-width: 1024px) {
+.Container
+{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+
+.TextUp
+{
+    display: flex;
+    height: 50px;
+}
+
+.TextDown
+{
+    display: flex;
+    top: -76%;
+    height: 5px;
+    position: relative;
+}
+
+.LeftWord
+{
+    color:white;
+    margin-right: auto;
+    font-family: 'Comfortaa';
+    padding-left: 1%;
+    height: 5px;
+}
+
+.RightWord
+{
+    color:white;
+    margin-left: auto;
+    font-family: 'Comfortaa';
+    padding-right: 1%;
+}
+
+.Back
+{
+    overflow: scroll;
+    height: 163vh;
+    background: no-repeat -webkit-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+    background: no-repeat -moz-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+    background: no-repeat linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+}
+
+.Kalush
+{
+    padding-left: 145px;
+    color: white;
+    font-size: 120px;
+    margin-top: -12px;
+    font-family: 'Misto' ;
+    position: relative;
+    z-index: 4;
+}
+
+.Photo
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -300px;
+    margin-bottom: -180px;
+    position: relative;
+    z-index: 2;
+}
+
+.Text
+{
+    margin-left: 65%;
+    color: white;
+    font-size: 10px;
+    top: -33%;
+    font-family: 'Comfortaa';
+    position: relative;
+}
+
+.TextTwo
+{
+    left: 22%;
+    color: white;
+    font-size: 120px;
+    top: -41%;
+    z-index: 1;
+    font-family: 'Misto' ;
+    position: relative;
+}
+
+#BText
+{
+    font-size: 14px;
+}
+}
+
+/*Планешт*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .Container
+    {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+    }
+    
+    .TextUp
+    {
+        display: flex;
+        height: 50px;
+    }
+    
+    .TextDown
+    {
+        display: flex;
+        height: 5px;
+        position: relative;
+    }
+    
+    .LeftWord
+    {
+        color:white;
+        margin-right: auto;
+        font-family: 'Comfortaa';
+        padding-left: 1%;
+        height: 5px;
+    }
+    
+    .RightWord
+    {
+        color:white;
+        margin-right: 35%;
+        font-family: 'Comfortaa';
+        padding-right: 1%;
+    }
+    
+    .Back
+    {
+        overflow: scroll;
+        height: 150vh;
+        background: no-repeat -webkit-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+        background: no-repeat -moz-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+        background: no-repeat linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+    }
+    
+    .Kalush
+    {
+        padding-left: 19%;
+        color: white;
+        font-size: 60px;
+        margin-top: 2%;
+        font-family: 'Misto' ;
+        position: relative;
+        z-index: 4;
+    }
+    
+    .Photo
+    {
+        height: 50%;
+        width: 50%;
+        margin-left: 7%;
+        margin-right: 10%;
+        margin-top: -17%;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .Text
+    {
+        margin-left: 18%;
+        color: white;
+        font-size: 22px;
+        top: -150%;
+        font-family: 'Comfortaa';
+        position: relative;
+    }
+    
+    .TextTwo
+    {
+        padding-left: 5%;
+        color: white;
+        font-size: 60px;
+        top: -105%;
+        z-index: 3;
+        font-family: 'Misto' ;
+        position: relative;
+    }
+    
+    #BText
+    {
+        font-size: 14px;
+    }
+}
+
+
+
+
+/*Смартфон*/
+@media only screen and (max-width: 768px) {
+.Container
+{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+
+.TextUp
+{
+    display: flex;
+    height: 50px;
+}
+
+.TextDown
+{
+    display: flex;
+    height: 5px;
+    position: relative;
+}
+
+.LeftWord
+{
+    color:white;
+    margin-right: auto;
+    font-family: 'Comfortaa';
+    padding-left: 1%;
+    height: 5px;
+}
+
+.RightWord
+{
+    color:white;
+    margin-right: 35%;
+    font-family: 'Comfortaa';
+    padding-right: 1%;
+}
+
+.Back
+{
+    overflow: scroll;
+    height: 140vh;
+    background: no-repeat -webkit-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+    background: no-repeat -moz-linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+    background: no-repeat linear-gradient(315deg, rgb(86, 52, 93), rgb(24, 8, 32) 42%);
+}
+
+.Kalush
+{
+    padding-left: 14%;
+    color: white;
+    font-size: 60px;
+    margin-top: 2%;
+    font-family: 'Misto' ;
+    position: relative;
+    z-index: 4;
+}
+
+.Photo
+{
+    height: 60%;
+    width: 60%;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: -22%;
+    position: relative;
+    z-index: 2;
+}
+
+.Text
+{
+    margin-left: 14%;
+    color: white;
+    font-size: 22px;
+    top: -100%;
+    font-family: 'Comfortaa';
+    position: relative;
+}
+
+.TextTwo
+{
+    padding-left: -1%;
+    color: white;
+    font-size: 60px;
+    top: -105%;
+    z-index: 3;
+    font-family: 'Misto' ;
+    position: relative;
+}
+
+#BText
+{
+    font-size: 14px;
+}
+}
+      
+  
